@@ -3,6 +3,8 @@
 ## Table of contents
 
 * [Installation Guide](#installation)
+* [How the system works](#howitworks)
+* [Conclusion and ways to improve](#conclusion)
 
 ## Overview
 
@@ -82,7 +84,7 @@ java -jar Server.jar
 java -jar Client.jar
 ```
 
-
+<a name="howitworks"></a>
 ## How it works
 
 ### Technologies
@@ -116,7 +118,7 @@ userMessage [recepientName] [currentTime] [messageContent]
 - The chat histories are stored in files for each unique pair of users. Whenever a chat history is requested, the history is read from the file and sent over the network.
 - The server logs activity in log files for debugging purposes. These can be found in `logs/server/latest.log`.
 
-
+<a name="conclusion"></a>
 ## Conclusion
 
 There are many ways to improve this application, especially the back end:
