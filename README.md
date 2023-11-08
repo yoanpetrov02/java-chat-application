@@ -7,9 +7,6 @@ Users can connect to the server, see who is online and send messages to each oth
 \
 ![281410014-eb41db2c-305f-484a-a8df-582ea1e84c99](https://github.com/yoanpetrov02/java-chat-application/assets/87146784/8c377978-3d53-4804-b135-d30eee9b2c2b)
 
-
-
-
 ## Installation guide
 
 ### Windows
@@ -113,3 +110,12 @@ userMessage [recepientName] [currentTime] [messageContent]
 - The server stores the registered users in `registeredusers.dat`. This is a file, where a list of users is serialized each time a user registers.
 - The chat histories are stored in files for each unique pair of users. Whenever a chat history is requested, the history is read from the file and sent over the network.
 - The server logs activity in log files for debugging purposes. These can be found in `logs/server/latest.log`.
+
+
+## Conclusion
+
+There are many ways to improve this application, especially the back end:
+
+- Improve text history loading, because if two users have a really long chat history, it can cause out of memory errors.
+- No need for using the hashCode of a `ChatPair` to name the file uniquely, we can just take the two names, sort them so they always appear in the same order and use those two concatenated to name the file which contains the chat history. This makes debugging easier as the developer can just look up the exact history they need easily, just by reading the name of the file.
+- Communication between the clients and the server can happen using serialization/deserialization of objects through object streams, which eliminates problems that occur with the current pattern-oriented messaging and many other smaller design enhancements.
