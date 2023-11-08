@@ -1,5 +1,9 @@
 # Instant messaging chat application
 
+## Table of contents
+
+* [Installation Guide](#installation)
+
 ## Overview
 
 An instant messaging chat application, written in Java 16 and JavaFX 19.\
@@ -7,6 +11,7 @@ Users can connect to the server, see who is online and send messages to each oth
 \
 ![281410014-eb41db2c-305f-484a-a8df-582ea1e84c99](https://github.com/yoanpetrov02/java-chat-application/assets/87146784/8c377978-3d53-4804-b135-d30eee9b2c2b)
 
+<a name="installation"></a>
 ## Installation guide
 
 ### Windows
