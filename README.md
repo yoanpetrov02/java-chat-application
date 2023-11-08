@@ -44,23 +44,23 @@ mvn clean install
 After building the project, open it with an IDE and launch the server application by navigating to the `ChatServerRunner` class in the `Chat-Server` module.\
 Upon launching the server, you will be asked to provide a hostname and a port:\
 \
-![image](https://github.com/yoanpetrov02/java-chat-application/assets/87146784/16518b1e-137f-4593-9b77-0b9bb9c6d157)\
+![281412430-16518b1e-137f-4593-9b77-0b9bb9c6d157](https://github.com/yoanpetrov02/java-chat-application/assets/87146784/7661edb6-422b-41b4-9b39-7796e9298df3)\
 \
 To run it locally, just type `localhost` in the Hostname field. Choose a free port and if everything is ok, the application will start. You will see this window:\
 \
-![image](https://github.com/yoanpetrov02/java-chat-application/assets/87146784/ed7df621-a48d-446e-ad70-64a21af2d6af)\
+![281412430-16518b1e-137f-4593-9b77-0b9bb9c6d157](https://github.com/yoanpetrov02/java-chat-application/assets/87146784/66912285-0af0-4886-80d5-419ef8e3c6ee)\
 \
 Here, you can start/stop the server and see any messages that appear.\
 \
 Whenever the server is running, clients can connect. Launch a client by navigating to the `ChatClientRunner` class in the `Chat-Client` module.\
 Upon launching it, you will be asked to provide a hostname, a port and your username:\
 \
-![image](https://github.com/yoanpetrov02/java-chat-application/assets/87146784/d9d50fe3-d36a-4ba6-84a6-8a345d791ee1)\
+![281412430-16518b1e-137f-4593-9b77-0b9bb9c6d157](https://github.com/yoanpetrov02/java-chat-application/assets/87146784/7e77a2b3-ccf9-4187-8687-dc73db30a2a9)\
 \
 In order to be able to connect to a running server, the hostname and the port need to match.\
 Whenever the main app launches, you will see the following window:\
 \
-![image](https://github.com/yoanpetrov02/java-chat-application/assets/87146784/413ade61-8706-4551-9f27-74c8ddc7b518)\
+![281412430-16518b1e-137f-4593-9b77-0b9bb9c6d157](https://github.com/yoanpetrov02/java-chat-application/assets/87146784/01c9011c-9400-44a4-8b8b-3fe0bd5b9716)\
 \
 You can see the online and offline users. Whenever you select a user, a chat box opens and you can send messages to the selected user.\
 \
