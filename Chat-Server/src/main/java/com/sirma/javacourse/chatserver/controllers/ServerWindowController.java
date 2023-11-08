@@ -83,7 +83,7 @@ public class ServerWindowController implements Subscriber {
             return;
         }
         languageChooser.setText("English");
-        LanguageChanger.setLocale(new Locale("en"));
+        LanguageChanger.setLocale(Locale.ENGLISH);
     }
 
     /**

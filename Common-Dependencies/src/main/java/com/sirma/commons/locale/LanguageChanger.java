@@ -19,7 +19,7 @@ public final class LanguageChanger {
     private static final ObjectProperty<Locale> LOCALE = new SimpleObjectProperty<>();
 
     static {
-        LOCALE.set(new Locale("en"));
+        LOCALE.set(Locale.ENGLISH);
     }
 
     private LanguageChanger() {
